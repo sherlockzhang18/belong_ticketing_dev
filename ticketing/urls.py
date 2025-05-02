@@ -23,4 +23,10 @@ urlpatterns = [
     
     # www.xxx.com/index/ -> call function
     path('index/', views.index),
+    
+    path('user/list/', views.user_list),
+    
+    path('user/add/', views.user_add),
+    
+    path('tpl/', views.tpl),
 ]
