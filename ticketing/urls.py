@@ -31,4 +31,8 @@ urlpatterns = [
     path('tpl/', views.tpl),
     
     path('login/', views.login),
+    
+    path('info/list/', views.info_list),
+    
+    path('info/add/', views.info_add),
 ]

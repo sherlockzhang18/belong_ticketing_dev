@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'ticketing.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'gx_day15', # database name
-        'USER': 'root',
-        'PASSWORD': '1234',
-        'HOST': '127.0.0.1', # database host 
-        'PORT': '3306', # database port
+        'NAME': 'ticketing',    # database name
+        'USER': 'django_user',  # username
+        'PASSWORD': '123',      # password
+        'HOST': '127.0.0.1',    # host
+        'PORT': '3306',         # port
     }
 }
 
